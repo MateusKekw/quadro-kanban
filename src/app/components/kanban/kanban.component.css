@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Corpo com cor de fundo pastel */
+body {
+  background-color: #f0f8ff; /* Cor pastel suave */
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+/* Estilos das colunas */
+.kanban-column {
+  border-radius: 8px;
+  padding: 15px;
+  width: 260px;
+  flex-shrink: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cores das colunas */
+.kanban-column.aberto {
+  background-color: #4a90e2;
+}
+
+.kanban-column.andamento {
+  background-color: #f5a623;
+}
+
+.kanban-column.concluido {
+  background-color: #7ed321;
+}
+
+.kanban-column.done {
+  background-color: #9013fe;
+}
+
+.kanban-column h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Cartões */
+.kanban-card {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+/* Efeito de hover no cartão */
+.kanban-card:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+/* Cartão arrastável */
+.kanban-card.dragging {
+  opacity: 0.5;
+}
+
+/* Botão de Lupa no canto superior esquerdo */
+.search-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão de lupa */
+.search-button:hover {
+  background-color: #f5f5f5;
+}
+
+/* Ícone de lupa */
+.search-button i {
+  font-size: 18px;
+  color: #333;
+}

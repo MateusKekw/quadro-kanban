@@ -1,0 +1,35 @@
+<!-- Botão de Lupa no canto superior esquerdo -->
+  <button class="search-button" aria-label="Buscar">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#333" viewBox="0 0 24 24">
+      <path d="M21.71 20.29l-3.387-3.387A8.966 8.966 0 0019 11a9 9 0 10-9 9 8.966 8.966 0 005.903-2.323l3.387 3.387a1 1 0 001.414-1.414zM4 11a7 7 0 1114 0 7 7 0 01-14 0z"/>
+    </svg>
+  </button>
+  
+  
+  
+  <div class="kanban-board">
+    <div
+      class="kanban-column"
+      *ngFor="let column of columns"
+      [ngClass]="{
+        'aberto': column.status === 'aberto',
+        'andamento': column.status === 'andamento',
+        'concluido': column.status === 'concluido',
+        'done': column.status === 'done'
+      }"
+      (dragover)="onDragOver($event)"
+      (drop)="onDrop($event, column.status)"
+    >
+      <h2>{{ column.title }}</h2>
+  
+      <div
+        class="kanban-card"
+        *ngFor="let task of getTasksByStatus(column.status)"
+        draggable="true"
+        (dragstart)="onDragStart(task)"
+      >
+        {{ task.title }}
+      </div>
+    </div>
+  </div>
+  
