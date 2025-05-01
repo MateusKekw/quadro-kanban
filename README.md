@@ -6,13 +6,11 @@
 
 ### Colunas
 
-    As Colunas são onde as tarefas devem ficar a todo o momento e são nomeadas de 
-    ```
+    As Colunas são onde as tarefas devem ficar a todo o momento e são nomeadas de...
     *Aberto:* Tarefas que ainda não saíram do papel
     *Andamento:* Tarefas que estão sendo feitas atualmente
     *Concluídas:* Tarefas que estão sendo finalizadas
     *Done Done:* Tarefas que acabaram de fato
-    ```
 ### Criação de Tarefas
     
     Cada Tarefa possui três componentes principais: Título, Descrição e Prioridade, essas características ficam a vista a todo o tempo 
@@ -39,8 +37,8 @@
 5. Você usou alguma ferramenta ou inteligência artificial para ajudar? Como?
 R: Sim, Utilizei para gerar um modelo de design para utilizar melhor meu tempo na lógica do programa e verificar e resolver erros, portanto tem partes no código que são da minha lógica, porém não da minha completa autoria
 
-Referências:
-https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw vídeo aulas de angular utilizadas (umas aulas que eu assisto já faz um tempo, mas vale a pena contar)
-ChatGPT - Base gráfica e correção de erros
-Gemini - Pesquisa (da onde eu descobri o localStorage)
-Documentação do Angular (poucas coisas como verificação de sintaxe e alguns comandos)
+  Referências:
+  https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw vídeo aulas de angular utilizadas (umas aulas que eu assisto já faz um tempo, mas vale a pena contar)
+  ChatGPT - Base gráfica e correção de erros
+  Gemini - Pesquisa (da onde eu descobri o localStorage)
+  Documentação do Angular (poucas coisas como verificação de sintaxe e alguns comandos)
