@@ -13,7 +13,8 @@ git restore
 git show
 git status
 git shortlog
-git commit --ammend
+
+git commit --amend (pelo que eu entendi era pro amend corrigir o úlimo commit... ele corrigiu... o da branch errada kkkkkkk)
 
 ## Como Funciona
 
