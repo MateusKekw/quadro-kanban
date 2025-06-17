@@ -36,7 +36,7 @@ Changes not staged for commit:
 
 git shortlog
 
-git commit --amend
+git commit --amend (pelo que eu entendi era pro amend corrigir o úlimo commit... ele corrigiu... o da branch errada kkkkkkk)
 
 ## Como Funciona
 
