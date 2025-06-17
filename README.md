@@ -1,5 +1,6 @@
 # Quadro Kanban
 // Branch do Mendonça
+Stashtest1 teste de lógica de branch
 "Playground" com o git 
 comandos a serem testados:
 git stash
