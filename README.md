@@ -36,7 +36,7 @@ Changes not staged for commit:
 
 git shortlog
 
-git commit --ammend
+git commit --amend
 
 ## Como Funciona
 
