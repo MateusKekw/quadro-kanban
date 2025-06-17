@@ -1,4 +1,18 @@
 # Quadro Kanban
+// Branch do Mendonça
+"Playground" com o git 
+comandos a serem testados:
+git stash
+git reset
+git revert
+git log
+git diff
+git reflog
+git restore
+git show
+git status
+git shortlog
+git commit --ammend
 
 ## Como Funciona
 
