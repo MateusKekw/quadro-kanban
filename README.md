@@ -2,6 +2,9 @@
 
 ## Como Funciona
 
+    (Esqueci de colocar isso originalmente) Para rodar o projeto basta abrir o terminal e usar o comando
+    "ng serve" depois clique ctrl + click no link com inicio localhost
+
     Após abrir o site você verá sua interface simples e intuitiva onde existe quatro colunas, uma barra de pesquisa e um formulário para criação de tarefas
 
 ### Colunas
