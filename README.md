@@ -1,4 +1,42 @@
 # Quadro Kanban
+// Branch do Mendonça
+"Playground" com o git 
+comandos a serem testados:
+
+git stash: (contexto: leve alteração no readme para demonstração do comando)
+teste de stash
+retorno do stash: "Saved working directory and index state WIP on mateus-stashtest1: ab6936b Munda├ºa no readme para teste dos comandos git"
+
+git reset
+
+git revert
+
+git log
+
+git diff
+
+git reflog
+
+git restore: (contexto: git add no readme.md modificado, assim ele fica staged, então uso git restore --staged para reverter o git add)
+teste do restore
+retorno do restore: (usar git status como referência)
+
+git show
+
+git status
+teste:
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)                          (pré git restore)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)      (pós git restore)
+        modified:   README.md
+
+git shortlog
+
+git commit --ammend
 
 ## Como Funciona
 
